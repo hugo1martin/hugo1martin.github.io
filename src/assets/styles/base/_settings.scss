@@ -1,4 +1,4 @@
-/* Set box sizing */
+/* Global styles */
 *,
 *:before,
 *:after {
@@ -7,10 +7,24 @@
   box-sizing: border-box;
 }
 
-/* Global styles */
+html,
+body,
+#root {
+  height: 100vh;
+}
+
 body {
   font-family: $font-family-open-sans;
   font-size: $font-size;
   color: $text-color;
   background-color: #fff;
+
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+main {
+  flex: 1;
 }

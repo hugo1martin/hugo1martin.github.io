@@ -1,11 +1,13 @@
-@import "imports_url";
-@import "variables";
-@import "mixins";
-@import "settings";
-@import "headings";
-@import "placements";
-@import "buttons";
-@import "cards";
-@import "inputs";
-@import "spaces";
-@import "anchors";
+@import "base/imports_url";
+@import "base/variables";
+@import "base/mixins";
+@import "base/settings";
+@import "base/headings";
+@import "base/placements";
+@import "base/buttons";
+@import "base/cards";
+@import "base/inputs";
+@import "base/spaces";
+@import "base/anchors";
+
+@import "pages/home";
