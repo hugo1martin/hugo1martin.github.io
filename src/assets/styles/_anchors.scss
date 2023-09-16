@@ -1,0 +1,17 @@
+a {
+  color: $primary-color;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.default {
+    color: initial;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

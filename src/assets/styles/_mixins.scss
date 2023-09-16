@@ -1,0 +1,86 @@
+@mixin style-base($color, $bg-color: #fff, $border-color) {
+  color: $color;
+  background-color: $bg-color;
+  border: 2px solid $border-color;
+  box-shadow: 0px 0px 8px rgba(0, 26, 51, 0.1);
+}
+
+@mixin active-effect($color) {
+  &:disabled,
+  &:hover:not([disabled]) {
+    background-color: darken($color, 20%);
+    border-color: darken($color, 20%);
+  }
+}
+
+@mixin active-effect-inverse($color) {
+  &:disabled,
+  &:hover:not([disabled]) {
+    background-color: darken($color, 5%);
+  }
+}
+
+// Styles
+@mixin default-style {
+  @include style-base(#fff, $default-color, $default-color);
+}
+
+@mixin primary-style {
+  @include style-base(#fff, $primary-color, $primary-color);
+}
+
+@mixin secondary-style {
+  @include style-base(#fff, $secondary-color, $secondary-color);
+}
+
+@mixin default-style-inverse {
+  @include style-base($default-color, #fff, $default-color);
+}
+
+@mixin primary-style-inverse {
+  @include style-base($primary-color, #fff, $primary-color);
+}
+
+@mixin secondary-style-inverse {
+  @include style-base($secondary-color, #fff, $secondary-color);
+}
+
+@mixin default-no-border {
+  @include style-base($text-color, #fff, transparent);
+}
+
+// Active styles
+@mixin active-default-style {
+  @include default-style;
+  @include active-effect($default-color);
+}
+
+@mixin active-primary-style {
+  @include primary-style;
+  @include active-effect($primary-color);
+}
+
+@mixin active-secondary-style {
+  @include secondary-style;
+  @include active-effect($secondary-color);
+}
+
+@mixin active-default-style-inverse {
+  @include default-style-inverse;
+  @include active-effect-inverse(#fff);
+}
+
+@mixin active-primary-style-inverse {
+  @include primary-style-inverse();
+  @include active-effect-inverse(#fff);
+}
+
+@mixin active-secondary-style-inverse {
+  @include secondary-style-inverse();
+  @include active-effect-inverse(#fff);
+}
+
+@mixin active-default-no-border {
+  @include default-no-border();
+  @include active-effect(#fff);
+}

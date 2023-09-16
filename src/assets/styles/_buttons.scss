@@ -1,0 +1,40 @@
+.button {
+  width: fit-content;
+  padding: 5px 10px;
+  font-family: $font-family-poppins;
+  font-weight: 500;
+  border-radius: $border-radius;
+  cursor: pointer;
+
+  &.big {
+    padding: 9px 18px;
+  }
+
+  &.default {
+    @include active-default-style;
+  }
+
+  &.primary {
+    @include active-primary-style;
+  }
+
+  &.secondary {
+    @include active-secondary-style;
+  }
+
+  &.default-inverse {
+    @include active-default-style-inverse;
+  }
+
+  &.primary-inverse {
+    @include active-primary-style-inverse;
+  }
+
+  &.secondary-inverse {
+    @include active-secondary-style-inverse;
+  }
+
+  &.default-no-border {
+    @include active-default-no-border;
+  }
+}

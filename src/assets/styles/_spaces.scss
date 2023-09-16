@@ -1,0 +1,31 @@
+@each $i, $grid-space in $grid-spaces {
+    .space-#{$i} {
+        margin: $grid-space;
+    }
+
+    .h-space-#{$i} {
+        margin-left: $grid-space;
+        margin-right: $grid-space;
+    }
+
+    .v-space-#{$i} {
+        margin-top: $grid-space;
+        margin-bottom: $grid-space;
+    }
+
+    .top-space-#{$i} {
+        margin-top: $grid-space;
+    }
+
+    .bottom-space-#{$i} {
+        margin-bottom: $grid-space;
+    }
+
+    .left-space-#{$i} {
+        margin-left: $grid-space;
+    }
+
+    .right-space-#{$i} {
+        margin-right: $grid-space;
+    }
+}

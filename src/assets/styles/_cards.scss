@@ -1,0 +1,42 @@
+.card {
+  @include default-style;
+
+  height: fit-content;
+  max-width: 50%;
+  min-width: 25%;
+  border-radius: 16px;
+  padding: $grid-space-5;
+
+  &.primary {
+    @include primary-style;
+  }
+
+  &.secondary {
+    @include secondary-style;
+  }
+
+  &.default-inverse {
+    @include default-style-inverse;
+  }
+
+  &.primary-inverse {
+    @include primary-style-inverse;
+    p {
+      color: $text-color;
+    }
+  }
+
+  &.secondary-inverse {
+    @include secondary-style-inverse;
+    p {
+      color: $text-color;
+    }
+  }
+
+  &.default-no-border {
+    @include default-no-border;
+    p {
+      color: $text-color;
+    }
+  }
+}

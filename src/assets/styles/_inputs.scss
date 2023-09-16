@@ -1,0 +1,20 @@
+input {
+  height: 40px;
+  width: 250px;
+  border: 2px solid $light-grey;
+  border-radius: $border-radius;
+  text-indent: 10px;
+
+  &.thin {
+    height: 25px;
+  }
+
+  &:disabled {
+    color: $disabled-text-color;
+  }
+
+  &:focus {
+    outline: none;
+    border: 2px solid $primary-color;
+  }
+}

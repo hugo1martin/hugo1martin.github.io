@@ -1,0 +1,16 @@
+/* Set box sizing */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: $font-family-open-sans;
+  font-size: $font-size;
+  color: $text-color;
+  background-color: #fff;
+}
