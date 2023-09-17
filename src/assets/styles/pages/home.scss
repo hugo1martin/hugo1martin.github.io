@@ -1,5 +1,21 @@
 .home {
-  width: 800px;
+  width: 80%;
+  max-width: 1080px;
   height: 100%;
-  background-color: red;
+  margin: 0 auto;
+}
+
+.typed-text {
+  color: $primary-color;
+  @include typed(
+    "Hugo",
+    "développeur web",
+    "UX designer",
+    null,
+    (
+      caret-width: 0.2ch,
+      caret-speed: 1,
+      caret-color: $text-color,
+    )
+  );
 }

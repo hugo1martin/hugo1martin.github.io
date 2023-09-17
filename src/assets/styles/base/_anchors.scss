@@ -1,16 +1,16 @@
 a {
   color: $primary-color;
   cursor: pointer;
+  text-decoration: none;
 
-  &:hover {
+  &:hover:not(.button) {
     text-decoration: underline;
   }
 
   &.default {
     color: initial;
-    text-decoration: none;
 
-    &:hover {
+    &:hover:not(.button) {
       text-decoration: underline;
     }
   }

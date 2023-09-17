@@ -1,3 +1,6 @@
+/* https://github.com/brandonmcconnell/typed.css */
+@import "utils/typed";
+
 @import "base/imports_url";
 @import "base/variables";
 @import "base/mixins";
@@ -9,5 +12,8 @@
 @import "base/inputs";
 @import "base/spaces";
 @import "base/anchors";
+
+@import "components/header";
+@import "components/footer";
 
 @import "pages/home";

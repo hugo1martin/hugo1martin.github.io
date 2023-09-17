@@ -23,6 +23,7 @@ function DesignSystem() {
         <button className="button default-no-border right-space-2">
           Default No Border
         </button>
+        <a className="button primary">Anchor button</a>
       </div>
 
       <div className="v-space-4">
