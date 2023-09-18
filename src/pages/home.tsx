@@ -4,11 +4,11 @@ function Home() {
   return (
     <Layout>
       <div className="home flex column h-center v-center">
-        <div className="flex row bottom-space-8">
+        <div className="title flex row bottom-space-8">
           <h1>Bonjour, je suis&nbsp;</h1>
           <h1 className="typed-text"></h1>
         </div>
-        <a href="public/hugo_cv.pdf" className="button primary">
+        <a href="public/hugo_cv.pdf" className="button primary" target="_blank">
           Télécharger mon CV
         </a>
       </div>

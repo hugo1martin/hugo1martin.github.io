@@ -23,6 +23,10 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  &.dark {
+    @include dark-mode();
+  }
 }
 
 main {

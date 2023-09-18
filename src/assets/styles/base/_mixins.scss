@@ -34,19 +34,19 @@
 }
 
 @mixin default-style-inverse {
-  @include style-base($default-color, #fff, $default-color);
+  @include style-base($default-color, transparent, $default-color);
 }
 
 @mixin primary-style-inverse {
-  @include style-base($primary-color, #fff, $primary-color);
+  @include style-base($primary-color, transparent, $primary-color);
 }
 
 @mixin secondary-style-inverse {
-  @include style-base($secondary-color, #fff, $secondary-color);
+  @include style-base($secondary-color, transparent, $secondary-color);
 }
 
 @mixin default-no-border {
-  @include style-base($text-color, #fff, transparent);
+  @include style-base($text-color, transparent, transparent);
 }
 
 // Active styles
@@ -83,4 +83,9 @@
 @mixin active-default-no-border {
   @include default-no-border();
   @include active-effect(#fff);
+}
+
+@mixin dark-mode {
+  background-color: #333;
+  color: #fff;
 }

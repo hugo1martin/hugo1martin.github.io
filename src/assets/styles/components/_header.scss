@@ -1,0 +1,13 @@
+header {
+  max-height: 100px;
+  padding: $grid-space-2 $grid-space-4;
+
+  .logo,
+  .logo img {
+    height: 100%;
+  }
+
+  .menu-wrapper {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,31 @@
+.home {
+  width: 80%;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+
+  .title {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .title {
+      flex-direction: column;
+    }
+  }
+}
+
+.typed-text {
+  color: $primary-color;
+  @include typed(
+    "Hugo",
+    "développeur freelance",
+    "spécialisé en front-end",
+    null,
+    (
+      caret-width: 0.2ch,
+      caret-speed: 1,
+      caret-color: $text-color,
+    )
+  );
+}

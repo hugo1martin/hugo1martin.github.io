@@ -8,10 +8,6 @@ a {
   }
 
   &.default {
-    color: initial;
-
-    &:hover:not(.button) {
-      text-decoration: underline;
-    }
+    color: unset;
   }
 }
