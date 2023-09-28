@@ -12,7 +12,7 @@ const About: React.FC = () => {
             src="images/placeholder_img.svg"
             alt="placeholder img"
           ></img>
-          <div className="flex column">
+          <div className="flex column right-space-4">
             <h1>Présentation</h1>
             <p>
               Hugo Martin, développeur frontend freelance basé à Paris.
