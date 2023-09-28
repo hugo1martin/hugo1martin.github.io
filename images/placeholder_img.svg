@@ -1,0 +1,7 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gray background -->
+    <rect x="0" y="0" width="300" height="200" fill="#e0e0e0" />
+
+    <!-- "Image" text in the center -->
+    <text x="150" y="110" font-family="Arial" font-size="24" fill="#aaa" text-anchor="middle" alignment-baseline="middle">Image</text>
+</svg>
