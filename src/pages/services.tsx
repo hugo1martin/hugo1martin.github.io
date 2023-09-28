@@ -9,27 +9,30 @@ const Services: React.FC = () => {
         <h1>Mes services</h1>
         <section className="service-list flex row space-between top-space-8">
           <article className="card primary">
-            <h2>Création de sites web</h2>
+            <h2>Lorem Ipsum</h2>
             <p>
-              Je réalise des sites web vitrine sur mesure, adaptés à vos besoins
-              et à votre image de marque. Je mets un point d'honneur à vous
-              fournir un site web de qualité, moderne et performant.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              volutpat libero libero, eu pretium quam feugiat ultricies. Mauris
+              non semper elit. Sed auctor urna id nibh aliquam convallis. Nulla
+              a lobortis libero.
             </p>
           </article>
           <article className="card primary">
-            <h2>Création de sites web</h2>
+            <h2>Lorem Ipsum</h2>
             <p>
-              Je réalise des sites web vitrine sur mesure, adaptés à vos besoins
-              et à votre image de marque. Je mets un point d'honneur à vous
-              fournir un site web de qualité, moderne et performant.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              volutpat libero libero, eu pretium quam feugiat ultricies. Mauris
+              non semper elit. Sed auctor urna id nibh aliquam convallis. Nulla
+              a lobortis libero.
             </p>
           </article>
           <article className="card primary">
-            <h2>Création de sites web</h2>
+            <h2>Lorem Ipsum</h2>
             <p>
-              Je réalise des sites web vitrine sur mesure, adaptés à vos besoins
-              et à votre image de marque. Je mets un point d'honneur à vous
-              fournir un site web de qualité, moderne et performant.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              volutpat libero libero, eu pretium quam feugiat ultricies. Mauris
+              non semper elit. Sed auctor urna id nibh aliquam convallis. Nulla
+              a lobortis libero.
             </p>
           </article>
         </section>
