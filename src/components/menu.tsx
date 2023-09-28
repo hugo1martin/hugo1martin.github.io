@@ -31,12 +31,7 @@ const Menu: React.FC = () => {
 
       <div className={`menu ${isOpen ? "open" : "close"}`}>
         <nav className="navigation-links">
-          <NavLink
-            to="/"
-            className="action default"
-            // Use spread operator to bypass TypeScript type checking
-            {...{ activeClassName: "active" }}
-          >
+          <NavLink to="/" className="action default">
             Accueil
           </NavLink>
           <NavLink to="/about" className="action default">
