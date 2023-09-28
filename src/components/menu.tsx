@@ -39,11 +39,14 @@ const Menu: React.FC = () => {
           >
             Accueil
           </NavLink>
-          <NavLink to="/ide" className="action default">
+          <NavLink to="/about" className="action default">
             À propos de moi
           </NavLink>
-          <NavLink to="/designsystem" className="action default">
-            Design system
+          <NavLink to="/services" className="action default">
+            Mes services
+          </NavLink>
+          <NavLink to="/contact" className="action default">
+            Contact
           </NavLink>
           <ToggleDarkMode />
         </nav>

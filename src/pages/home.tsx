@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Layout from "../components/layout/layout";
 
 function Home() {
@@ -8,9 +9,12 @@ function Home() {
           <h1>Bonjour, je suis&nbsp;</h1>
           <h1 className="typed-text"></h1>
         </div>
-        <a href="public/hugo_cv.pdf" className="button primary" target="_blank">
-          Télécharger mon CV
-        </a>
+        <NavLink
+          className="button primary aboutme align-self center top-space-4"
+          to="/about"
+        >
+          En savoir plus
+        </NavLink>
       </div>
     </Layout>
   );

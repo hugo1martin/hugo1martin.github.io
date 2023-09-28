@@ -1,2 +1,32 @@
 .about {
+  width: 80%;
+  max-width: 1080px;
+  flex: 1;
+  margin: 0 auto;
+
+  .presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    .hugo-photo {
+      height: 500px;
+      width: 500px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .presentation {
+      flex-direction: column;
+      margin-top: $grid-space-6;
+      .hugo-photo {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: $grid-space-8;
+      }
+    }
+  }
 }

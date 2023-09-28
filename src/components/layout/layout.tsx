@@ -1,5 +1,6 @@
 import Footer from "./footer";
 import Header from "./header";
+import BubbleBackground from "../bubbleBackground";
 
 interface ILayoutProps {
   children: React.ReactNode;
@@ -8,6 +9,7 @@ interface ILayoutProps {
 function Layout({ children }: ILayoutProps) {
   return (
     <>
+      <BubbleBackground />
       <Header />
       <main>{children}</main>
       <Footer />

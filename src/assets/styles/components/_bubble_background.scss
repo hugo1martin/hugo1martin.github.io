@@ -1,0 +1,16 @@
+// BubbleBackground.scss
+.bubble-background {
+  position: absolute;
+  z-index: -1;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(41, 163, 217, 0.02); // A very, very slight blue
+
+  .bubble {
+    position: absolute;
+    background-color: rgba(41, 163, 217, 0.2); // Transparent blue
+    border-radius: 50%;
+  }
+}

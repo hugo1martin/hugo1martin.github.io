@@ -1,0 +1,47 @@
+.services {
+  width: 80%;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+
+  .service-list {
+    width: 100%;
+    .card {
+      width: 300px;
+    }
+  }
+
+  .why-me {
+    width: 100%;
+
+    .why-me-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    p {
+      width: 300px;
+      text-align: justify;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .service-list {
+      flex-direction: column;
+
+      .card:not(:first-child) {
+        margin-top: $grid-space-6;
+      }
+    }
+
+    .why-me {
+      .why-me-content {
+        flex-direction: column;
+
+        p {
+          margin-top: $grid-space-5;
+        }
+      }
+    }
+  }
+}

@@ -1,11 +1,12 @@
 .home {
-  width: 80%;
-  max-width: 1080px;
-  height: 100%;
-  margin: 0 auto;
+  flex: 1;
 
   .title {
     text-align: center;
+
+    :not(.typed-text) {
+      color: unset;
+    }
   }
 
   @media screen and (max-width: 768px) {
