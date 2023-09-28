@@ -13,7 +13,7 @@ function Home() {
           className="button primary aboutme align-self center top-space-4"
           to="/about"
         >
-          En savoir pluss
+          En savoir plussss
         </NavLink>
       </div>
     </Layout>
