@@ -21,6 +21,11 @@
     .service-list {
       flex-direction: column;
       align-items: center;
+
+      article {
+        width: 100%;
+        margin: $grid-space-6 0;
+      }
     }
   }
 }
