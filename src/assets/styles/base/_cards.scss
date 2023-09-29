@@ -38,3 +38,16 @@
     }
   }
 }
+
+.glass-card {
+  height: fit-content;
+  border-radius: 16px;
+  padding: $grid-space-5;
+  background-color: rgba($primary-color, 0.1);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  svg {
+    color: $primary-color;
+  }
+}
