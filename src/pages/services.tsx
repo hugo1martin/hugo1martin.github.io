@@ -22,10 +22,17 @@ const Services: React.FC = () => {
             />
             <h2>Sites web</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              volutpat libero libero, eu pretium quam feugiat ultricies. Mauris
-              non semper elit. Sed auctor urna id nibh aliquam convallis. Nulla
-              a lobortis libero.
+              Bâtissez une solide présence en ligne avec un site web performant
+              et fonctionnel.
+              <br></br>
+              <br></br>
+              Assurez-vous que vos clients vous trouvent aisément et accèdent
+              facilement aux informations dont ils ont besoin.
+              <br></br>
+              <br></br>
+              Je me charge de l'aspect technique pour vous garantir un site web
+              fluide, rapide et efficace, mettant l'accent sur la facilité
+              d'utilisation et la fonctionnalité.
             </p>
           </article>
           <article className="glass-card">
@@ -36,10 +43,14 @@ const Services: React.FC = () => {
             />
             <h2>Applications métier</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              volutpat libero libero, eu pretium quam feugiat ultricies. Mauris
-              non semper elit. Sed auctor urna id nibh aliquam convallis. Nulla
-              a lobortis libero.
+              Automatisez vos processus métier et augmentez votre efficacité
+              avec des applications métier sur mesure.
+              <br></br>
+              <br></br>
+              Je développe des solutions logicielles robustes et évolutives qui
+              s'intègrent parfaitement à vos opérations existantes, vous
+              permettant de vous concentrer sur votre cœur de métier et
+              d'améliorer continuellement votre offre.
             </p>
           </article>
           <article className="glass-card">
@@ -48,12 +59,20 @@ const Services: React.FC = () => {
               size="2xl"
               className="bottom-space-4"
             />
-            <h2>Audit</h2>
+            <h2>Conseils</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              volutpat libero libero, eu pretium quam feugiat ultricies. Mauris
-              non semper elit. Sed auctor urna id nibh aliquam convallis. Nulla
-              a lobortis libero.
+              Bénéficiez de conseils avisés pour optimiser votre présence en
+              ligne et votre infrastructure technologique.
+              <br></br>
+              <br></br>
+              Profitez de mon expérience pour éviter les pièges courants et
+              prendre des décisions éclairées pour votre entreprise.
+              <br></br>
+              <br></br>
+              Je suis là pour vous aider à naviguer dans le monde complexe de la
+              technologie, en vous fournissant des solutions pratiques et
+              réalisables qui apporteront de la valeur ajoutée à votre
+              entreprise.
             </p>
           </article>
         </section>
