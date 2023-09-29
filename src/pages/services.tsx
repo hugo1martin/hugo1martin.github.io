@@ -22,17 +22,10 @@ const Services: React.FC = () => {
             />
             <h2>Sites web</h2>
             <p>
-              Bâtissez une solide présence en ligne avec un site web performant
-              et fonctionnel.
-              <br></br>
-              <br></br>
-              Assurez-vous que vos clients vous trouvent aisément et accèdent
-              facilement aux informations dont ils ont besoin.
-              <br></br>
-              <br></br>
-              Je me charge de l'aspect technique pour vous garantir un site web
-              fluide, rapide et efficace, mettant l'accent sur la facilité
-              d'utilisation et la fonctionnalité.
+              Créez une présence en ligne robuste avec un site web performant et
+              fonctionnel. Assurez une visibilité et une accessibilité optimales
+              pour vos clients, tout en bénéficiant d'une gestion technique
+              simplifiée et efficace.
             </p>
           </article>
           <article className="glass-card">
@@ -43,14 +36,10 @@ const Services: React.FC = () => {
             />
             <h2>Applications métier</h2>
             <p>
-              Automatisez vos processus métier et augmentez votre efficacité
-              avec des applications métier sur mesure.
-              <br></br>
-              <br></br>
-              Je développe des solutions logicielles robustes et évolutives qui
-              s'intègrent parfaitement à vos opérations existantes, vous
-              permettant de vous concentrer sur votre cœur de métier et
-              d'améliorer continuellement votre offre.
+              Augmentez votre efficacité avec des applications métier sur
+              mesure. Intégrez des solutions logicielles robustes et évolutives
+              à vos opérations existantes pour un fonctionnement optimal et une
+              amélioration continue.
             </p>
           </article>
           <article className="glass-card">
@@ -61,18 +50,10 @@ const Services: React.FC = () => {
             />
             <h2>Conseils</h2>
             <p>
-              Bénéficiez de conseils avisés pour optimiser votre présence en
-              ligne et votre infrastructure technologique.
-              <br></br>
-              <br></br>
-              Profitez de mon expérience pour éviter les pièges courants et
-              prendre des décisions éclairées pour votre entreprise.
-              <br></br>
-              <br></br>
-              Je suis là pour vous aider à naviguer dans le monde complexe de la
-              technologie, en vous fournissant des solutions pratiques et
-              réalisables qui apporteront de la valeur ajoutée à votre
-              entreprise.
+              Optimisez votre présence en ligne et votre infrastructure
+              technologique grâce à des conseils avisés. Évitez les pièges et
+              prenez des décisions éclairées avec mon aide pour naviguer dans le
+              monde technologique complexe.
             </p>
           </article>
         </section>
@@ -81,28 +62,25 @@ const Services: React.FC = () => {
           <article>
             <h2>Compétences</h2>
             <p>
-              Je suis un développeur front-end passionné par la technologie et
-              le design. Ma formation à Epitech m'a offert une solide base
-              technique, et chaque collaboration m'a permis d'affiner davantage
-              mes compétences et de contribuer de manière significative.
+              En tant que développeur front-end passionné formé à Epitech,
+              j'apporte compétence technique et contribution significative à
+              chaque projet.
             </p>
           </article>
           <article>
             <h2>Expériences</h2>
             <p>
-              Que ce soit en freelance ou en entreprise, chaque expérience a été
-              une opportunité d'apprendre et de grandir. J'aime comprendre les
-              besoins réels pour les traduire en solutions technologiques
+              Chaque expérience en freelance ou en entreprise renforce mon
+              aptitude à traduire les besoins réels en solutions technologiques
               pertinentes.
             </p>
           </article>
           <article>
             <h2>Satisfaction</h2>
             <p>
-              Je m'investis pleinement dans chaque projet, en privilégiant
-              l'écoute et la collaboration. Si vous recherchez une personne
-              enthousiaste, curieuse, toujours prête à s'adapter et à apprendre,
-              je pourrais être le collaborateur idéal pour votre projet.
+              Mon engagement dans chaque projet assure écoute, collaboration, et
+              adaptation, faisant de moi le collaborateur idéal pour votre
+              projet.
             </p>
           </article>
         </section>
